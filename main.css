@@ -5,17 +5,18 @@
     list-style: none;
     outline: none;
   }
-  header.header {
+.header {
     width: 1280px;
     height: 450px;
     display: flex;
-  align-items: baseline;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: rgba(50, 148, 148, 0.15);
 }
 .right{
-    width: 448px;
+    width: 449px;
     height: 70px;
     left: 832px;
     display: flex;
@@ -35,7 +36,7 @@
     height: 31px;
 
 }
-.buttons button{
+.right-button{
     height: 38px;
     width: 161px;
     color: rgb(31, 66, 66);
@@ -44,10 +45,87 @@ border-radius: 12px;
 border: 1px;   
 background-color: rgba(50, 148, 148, 1);    
 }
+.left-button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:rgba(50, 148, 148, 1);
+    background-color: rgba(50, 148, 148, 0.15);
+    width: 161px;
+height: 38px;
+border: -1px ; 
+border-radius: 12px ;  
+border-color: rgba(50, 148, 148, 1); 
+
+}
 
 .left{
     width: 164px;
+    height: 61px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;  
+}
+
+.header-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 240px;
+    color: rgba(29, 36, 69, 1);
+}
+.header-top{
+    width: 1280px;
+    height: 102px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-header-bottom-text h5 {
+    font-size: 40px;
+}
+.left-header-bottom-text span{
+font-size: 16px;
+}
+.left-header-bottom{
+    width: 66%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.left-header-bottom-form{
+    width: 50%;
+}
+.left-header-bottom-form input{
+    margin: 21px;
+    color: rgba(29, 36, 69, 1);
+    width: 371px;
+height: 48px;
+border-radius: 15px;
+}
+.left-header-bottom-form img{
+    margin: -25px;
+}
+.header-end{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 845px;
+    height: 64px;
+    background-color: rgba(23, 206, 146, 1);
+    border-radius: 10px;
+}
+.header-end span{
+    color: #fff;
+    font-size: 20px;
+}
+.header-end button{
+    width: 170px;
+    height: 38px;
+    border-radius: 15px;
+    background-color: black;
+}
+.header-end button a{
+    color: rgba(255, 255, 255,1);
+    text-decoration: none;
 }
