@@ -1,9 +1,16 @@
+/* @font-face {
+    font-family: 'AmaticSC-Regular';
+    src: url('./fonts/AmaticSC-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  } */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style: none;
-    outline: none;
+    outline: none; 
+     font-family: Andale Mono, monospace;
   }
 .header {
     width: 1280px;
@@ -12,7 +19,6 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: rgba(50, 148, 148, 0.15);
 }
 .right{
@@ -112,14 +118,14 @@ border-radius: 15px;
 border: 1px;
 }
 .left-header-bottom-form :nth-child(2){
-    top: -3px;
-    left: -50px;
+bottom: 58px;
+    left: 347px;
     position: relative;
     margin: -23px;
 }
 .left-header-bottom-form :nth-child(3){
-    top: -11px;
-    left: -48px;
+    bottom: 66px;
+    left: 345px;
     position: relative;
     margin: -23px;
 }
@@ -171,12 +177,12 @@ main{
     justify-content: space-around;
 }
 .study h3{
-    width: 577px;
+    width: 600px;
     font-size: 30px;
     color: rgba(0, 0, 0,1);
 }
 .study span{
-    width: 447px;
+    width: 511px;
     font-size: 14px;
     color: rgba(40,46,60,1);
 }
@@ -196,7 +202,7 @@ main{
     color: rgba(0, 0, 0,1);
 }
 .info > div > span{
-    font-size: 18px;
+    font-size: 16px;
     color: rgba(0, 0, 0,1);
 }
 
@@ -286,7 +292,7 @@ main{
 
 .question-bottom-left :nth-child(2){
     position: relative;
-    right: 39px;
+    right: 33px;
 }
 .question-bottom-left :nth-child(3){
     right: 30px;
@@ -347,6 +353,7 @@ height: 1000px;
 }
 
 .item{
+    width: 255px;
     height: 52px;
     display: flex;
     align-items: center;
@@ -386,6 +393,7 @@ height: 1000px;
     justify-content: space-between;
 }
 .review > span{
+    width: 820px;
     font-size: 14px;
     color: rgba(29, 36, 69, 1);
 }
@@ -405,7 +413,7 @@ footer{
     display: flex;
     position: relative;
     top: 284px;
-    width: 1280px;
+    width: 1282px;
     height: 285px;
     background-color: rgba(0, 0, 0,1);
 }
