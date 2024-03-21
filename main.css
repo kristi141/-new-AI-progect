@@ -295,7 +295,7 @@ main{
     right: 33px;
 }
 .question-bottom-left :nth-child(3){
-    right: 30px;
+    right: 20px;
     position: relative;
     font-size: 16px;
     color: rgba(40,46,60,1);
@@ -308,21 +308,21 @@ main{
 }
 .question-bottom-left :nth-child(4){
     bottom: 8px;
-    right: 34px;
+    right: 26px;
     position: relative;
     font-size: 33px!important;
 }
 .question-bottom-left :nth-child(5){
     position: relative;
-    right: 42px;
+    right: 35px;
 }
 .question-bottom-left :nth-child(6){
     position: relative;
-    right: 39px;
+    right: 23px;
 }
 .question-bottom-left :nth-child(7){
     position: relative;
-    right: 48px;
+    right: 27px;
 }
 
 .question-bottom-right > button{
@@ -459,4 +459,104 @@ height: 175px;
     width: 200px;
     display: flex;
     justify-content: space-around;
+}
+
+@media(min-width:1440px){
+    .header{
+        width: 100%;
+    }
+    .left-header-bottom-form :nth-child(2){
+        position: relative;
+        bottom: 4px;
+        left: -75px;
+    }
+    .left-header-bottom-form :nth-child(3){
+        position: relative;
+        bottom: 12px;
+        left: -77px;
+    }
+    .right{
+        width: 403px;
+    }
+    .volna{
+        width: 100%;
+    }
+    .header-end{
+        height: 72px;
+    }
+
+    main{
+        width: 100%;
+    }
+    .study{
+        width: 100%;
+    }
+    .question{
+        height: 1113px !important;
+    }
+    .question > div{
+        width: 997px;
+        height: 205px;
+    }
+    .question-bottom-left :nth-child(1){
+        position: relative;
+        left: 15px;
+    }
+    .question-bottom-left :nth-child(2) {
+        position: relative;
+        right: 18px;
+    }
+    .question-bottom-left :nth-child(3){
+     position: relative;
+     left: 1px;
+    }
+    .question-bottom-left :nth-child(4) {
+        position: relative;
+        right: 6px;
+    }
+    .question-bottom-left :nth-child(5) {
+        position: relative;
+        right: 13px;
+    }
+    .question-bottom-left :nth-child(6) {
+        position: relative;
+        right: 9px;
+    }
+    .question-bottom-left :nth-child(7) {
+        position: relative;
+        right: 12px;
+    }
+    .items{
+        position: relative;
+        bottom: 1111px;
+        left: 1118px;
+    }
+    .questions > h3{
+        height: 73px;
+    }
+    .reviews{
+        width: 100%;
+        height: 400px;
+    }
+    .right-strelka{
+        position: relative;
+        left: 1395px;
+    }
+    .review{
+        width: 900px;
+    }
+
+    footer{
+        width: 100%;
+        position: relative;
+        top: 296px;
+    }
+    .left-part-footer{
+        width: 1062px;
+    }
+    .right-part-footer{
+        position: relative;
+        left: 98px;
+    }
+    
 }
